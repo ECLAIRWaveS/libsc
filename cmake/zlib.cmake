@@ -1,7 +1,7 @@
 include(ExternalProject)
 include(GNUInstallDirs)
 
-set(ZLIB_FOUND true)
+set(SC_HAVE_ZLIB 1 CACHE BOOL "using SC-built Zlib")
 
 # default zlib source archive
 if (NOT DEFINED SC_BUILD_ZLIB_ARCHIVE_FILE)
